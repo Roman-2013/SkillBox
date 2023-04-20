@@ -1,0 +1,421 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+
+}
+h2{
+	font-size: 20px;
+	padding:27px 0 27px 18px;
+	margin: 0 0 34pxw;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+.fixtContainer{
+	position: relative ;
+	width: 960px;
+	margin: 0 auto;
+
+
+} 
+#blackBar{
+	background-color: black;
+	color:white;
+	padding: 20px 0;		
+}
+#blackBar a{
+	background-color: black;
+	color:white;
+}
+#dateTime{
+	display: inline-block;
+	float: right;
+}
+						/* Хэдер */
+#header{
+	height: 180px;
+}
+#logo{
+	position: relative;
+	top:40px;
+}
+select{
+	border:none;
+	color: #448ccb;
+	position: relative;
+	left: 60px;
+	font-size: 15px;
+	top:25px;
+	text-decoration: underline;
+}
+#search{
+	float: right;
+	position: relative;
+	top:45px;
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: #f3f3f3;
+	padding: 15px;
+	color: red;
+	background-image: url(IMG/lupa.png);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+#cloud{
+	position: relative;
+	top: 35px;
+	left: 330px;
+}
+nav{
+	position: relative;
+	top: 70px;
+	color:#e3e3e6 ;
+}
+nav div{
+	display: inline-block;
+	padding: 7px;
+}
+.textColor{
+	color: black;
+}
+							/*Основной раздел  */
+#centralContainer{
+	overflow: hidden;
+	background-color:#f9f9f9;
+	padding-top:20px;
+	background-image: url(IMG/schadow.png);
+	background-repeat: repeat-x;
+	padding-bottom: 20px;
+}
+
+
+				#columnLeft{
+					background-color: white;
+					width: 250px;
+					float: left;
+					height: 863px;
+				}
+				.newsItem{
+					padding-left: 18px;
+					margin-bottom: 27px;
+					font-size: 14px;
+
+				}
+				.newsItemmText{
+					margin-bottom: 27px;
+				}
+				.newsItemProps{
+					position: relative;
+					font-size: 12px;
+				}
+				.newsItemProps a{
+					color: #91919f;
+				}
+				.propsTime{
+					position: absolute;
+					left:120px;
+					top:0;
+					background-image: url("IMG/time.png");
+					background-repeat: no-repeat;
+					padding-left: 17px;
+
+				}
+				.propsComentc{
+					position: absolute;
+					left: 180px;
+					top:0;
+					background-image: url("IMG/message.png");
+					background-repeat: no-repeat;
+					padding-left: 17px;
+				}
+
+
+
+
+		#columnCentr{
+		width:420px;
+		margin-left: 20px;
+		float: left;
+
+		}
+
+		#caslConteiner{
+			padding-left: 20px;
+			background-image: url(IMG/caslFon.png);
+			baground-
+			position: absolute;
+			height: 320px;
+			width: 400px;
+			color: white;
+		}
+		.teg{
+			font-size: 12px;
+			position:relative;
+			top:115px;
+		}
+		.osnovnoiText{
+			font-size: 30px;
+			font-weight: bold;
+			position: relative;
+			top:130px;
+			width: 380px;
+		}
+		.date{
+			position: relative;
+			top:145px;
+			font-size: 12px;
+		}
+		.time{
+			position: relative;
+			top:133px;
+			font-size: 12px;
+			left: 100px;
+			background-image: url("IMG/timeBlu.png");
+			background-repeat: no-repeat;
+			padding-left: 15px;
+			background-position: left center;
+		}
+		.caslColumLeft{
+			overflow: hidden;
+			width: 200px;
+			margin-right: 10px;
+			margin-top:20px;
+			float: left;
+		}
+		.caslColumRight{
+			width: 200px;
+			overflow: hidden;
+			float: right;
+			margin-top:20px;
+			margin-left: 10px;
+
+		}
+		.oneState{
+			position: relative;
+			margin-bottom: 40px;
+		}
+		.caslItemmText{
+			font-size: 13px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.caslColumLeft a{
+			font-size: 12px;
+			color: #91919f;
+		}
+		.caslColumRight a{
+			font-size: 12px;
+			color: #91919f;
+		}
+		.caslTime{
+			font-size: 12px;
+			position: absolute;
+			left:75px;
+			top:213px;
+			background-image: url("IMG/time.png");
+			background-repeat: no-repeat;
+			padding-left: 17px;
+		}
+		.caslComentc{
+			font-size: 12px;
+			position: absolute;
+			background-image: url("IMG/message.png");
+			background-repeat: no-repeat;
+			padding-left: 17px;
+			left:135px;
+			top:213px;
+		}
+		.caslColumRight img{
+			width: 219px;
+			height: 150px;
+		}
+		.caslColumLeft img{
+			width: 219px;
+			height: 150px;
+		}
+
+#columnRight{
+
+	width: 250px;
+	float: right;
+}
+#columnRight img{
+	width: 250px;
+	margin-bottom: 12px;
+	height: 422px;
+}
+
+
+
+					/* Нижний раздел */
+#specialNews{
+height: 450px;
+ background-color:#f9f9f9;
+}
+
+#leftImage{
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+	padding-bottom: 60px;
+	padding-left: 20px;
+	position: relative;
+	color: white;
+	width: 570px;
+	height: 390px;
+	background-image: url(IMG/footerImg.png);
+	background-repeat: no-repeat;
+}
+#leftImage a{
+	top:100px;
+	position: absolute;
+	font-size: 12px;
+	color: white;
+}
+.osnovnoiTextImage{
+	top:140px;
+	width: 400px;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+}
+.dateImage{
+	position: relative;
+	font-size: 12px;
+	top:150px;
+}
+.timeImage{
+	position: relative;
+	top:138px;
+	font-size: 12px;
+	left: 100px;
+	background-image: url("IMG/timeBlu.png");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: left center;
+}
+.rightText{
+	margin: 0;
+	width: 480px;
+	position: relative;
+	top:160px;
+	font-size: 14px;
+}
+
+
+
+
+
+#rightImage{
+	background-color:white;
+	float: left;
+	height: 390px;
+	width: 370px;
+	display: inline-block;
+}
+#rightImage h2{
+	width: 350px;
+	margin-top: 0;
+}
+.rightImageColumn{
+	height: 80px;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+.rightImageText{
+	font-weight: bold;
+	font-size: 16px;
+}
+.rightImageColumn a{
+	top:50px;
+	position: absolute;
+	font-size: 12px;
+	color: #91919f;
+}
+.rightImageTime{
+	position: absolute;
+	left:120px;
+	top:50px;
+	background-image: url("IMG/time.png");
+	background-repeat: no-repeat;
+	padding-left: 17px;	
+	font-size: 12px;
+}
+.rightImageMassage{
+	font-size: 12px;
+	position: absolute;
+	left: 180px;
+	top:50px;
+	background-image: url("IMG/message.png");
+	background-repeat: no-repeat;
+	padding-left: 17px;
+}
+						/*Footer*/
+
+footer{
+	font-size: 16px;
+	color: white;
+	position: relative;
+	height: 300px;
+	background-color: #00122f;
+}
+#leftColumFuter{
+position: absolute;
+top:60px;
+}
+.leftColumFuterStr{
+	margin-bottom: 20px;
+}
+#leftColumFuterTwo{
+	position: absolute;
+	top: 60px;
+	left: 138px;
+}
+#rightColumFuter{
+	position: absolute;
+	top: 60px;
+	left: 460px;
+}
+#rightColumFuter2{
+	position: absolute;
+	left: 760px;
+	top:60px;
+}
+.rightColumFuterStr1{
+	background-image: url(IMG/telephone.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 20px;
+	padding-left: 30px;
+
+}
+.rightColumFuterStr2{
+	background-image: url(IMG/list.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	}
+footer img{
+	position: relative;
+	margin-bottom: 10px;
+	right: 10px;
+}
+#inst{
+	position: relative;
+	margin-bottom: 20px;
+}
+#douwn{
+	text-align: center;
+	position: relative;
+	top:260px;
+	font-size: 12px;
+	color:silver;
+	border-top: 1px solid silver;
+	padding-top: 13px;
+}
